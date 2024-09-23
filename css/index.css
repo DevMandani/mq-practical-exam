@@ -1,0 +1,259 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+/* ------------ container css ------------------ */
+.container{
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border:1px solid red;
+}
+
+
+/* -------------------- row property start ------------------- */
+
+.row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.p{
+    padding: 10px;
+}
+/* ----------------------- row property end ---------------------- */
+
+
+
+
+/* ------------------------ border property start ---------------------- */
+
+.b-red{
+    border:1px solid red;
+}
+
+.b-black{
+    border:1px solid black;
+}
+.b-orange{
+    border:1px solid green;
+}
+.b-purple{
+    border:1px solid purple;
+}
+/* --------------------------- border property end ------------------------- */
+
+
+/* ------------------------- height property start ---------------- */
+
+.h-100{
+    height: 100px;
+}
+.h-200{
+    height:200px
+}
+.h-300{
+    height:300px
+}
+.h-400{
+    height:400px
+}
+/* --------------------------- height property end --------------------- */
+
+
+/* ------------------ text-align-center ---------------------------- */
+
+.t-center{
+    text-align: center;
+}
+.align-center{
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -------------------- text-align-center end ----------------------------- */
+
+
+/* ------------------------- gap property start -------------------------- */
+
+.gap{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    align-items: center;
+}
+
+.small-gap{
+    display:flex;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+/* ---------------------------- gp property end -------------------------- */
+
+
+/* --------------- logo section css start ------------------------- */
+.fa-cart-shopping{
+    font-size: 20px;
+}
+.fa-cart-shopping:hover{
+    transform: scale(1.1);
+   color: dodgerblue;
+   transition: all 0.5s;
+}
+.fa-user{
+    font-size: 20px;
+}
+.fa-user:hover{
+    transform: scale(1.1);
+    color: dodgerblue;
+    transition: all 0.5s;
+}
+
+.fa-bars{
+    font-size: 20px;
+}
+.fa-bars:hover{
+    transform: scale(1.1);
+    color: dodgerblue;
+    transition: all 0.5s;
+}
+.fa-magnifying-glass{
+    font-size: 20px;
+}
+.fa-magnifying-glass:hover{
+    transform: scale(1.1);
+    color: dodgerblue;
+    transition: all 0.5s;
+}
+
+/* ------------------ loo section css end ------------------------------ */
+
+
+
+
+
+/* ----------------- image classes start ---------------------------- */
+
+.new-img{
+    width:30%;
+}
+
+
+
+
+/* ----------------- image classes end ------------------------------ */
+
+
+
+/* ------------ nav-font-start ----------------------------- */
+.nav-font{
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.nav-font:hover{
+    color:firebrick;
+    text-decoration: underline;
+    transition: all 0.5 s;
+}
+
+/* ----------------- nav-font-end ------------------------- */
+
+
+/* ------------- dropdown classes start -------------------- */
+
+.dropdown1{
+    position:relative;
+    
+}
+.dropdown-menu1{
+    position: absolute;
+    top:80px;
+    box-shadow: 1px 1px 4px black;
+    border-color: white;
+    font-size: 20px;
+    line-height: 3;
+    width:200px;    
+    text-align: center;
+    display: none;
+
+}
+.dropdown2{
+    position:relative;
+    
+}
+.dropdown-menu2{
+    position: absolute;
+    top:80px;
+    display: none;
+    box-shadow: 1px 1px 4px black;
+    border-color: white;
+    font-size: 20px;
+    line-height: 3;
+    width:200px;    
+    text-align: center;
+}
+.dropdown3{
+    position:relative;
+    
+}
+.dropdown-menu3{
+    position: absolute;
+    top:80px;
+    display: none;
+    box-shadow: 1px 1px 4px black;
+    border-color: white;
+    font-size: 20px;
+    line-height: 3;
+    width:200px;    
+    text-align: center;
+}
+.dropdown4{
+    position:relative;
+    
+}
+.dropdown-menu4{
+    position: absolute;
+    top:80px;
+    display: none;
+    box-shadow: 1px 1px 4px black;
+    border-color: white;
+    font-size: 20px;
+    
+    line-height: 3;
+    width:200px;    
+    text-align: center;
+}
+
+
+li{
+    list-style: none;
+}
+.dropdown5{
+    position:relative;
+    
+}
+.dropdown-menu5{
+    position: absolute;
+    top:80px;
+    display: none;
+    box-shadow: 1px 1px 4px black;
+    border-color: white;
+    font-size: 20px;
+    line-height: 3;
+    width:200px;    
+    text-align: center;
+}
+
+/* ---------------- dropdown-classes-end ---------------------------- */
